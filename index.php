@@ -32,7 +32,7 @@ include 'php/forms.php';
                 <ul>
 
                     <li>
-                        <a href="/php/contact.php">Contact ▾</a>
+                        <a href="//contact.php">Contact ▾</a>
                         <ul class="dropdown">
 
                             <li><a href="mailto:contact@xinfluence.in" target="_main " class="contact-dropdown-color">Email :
@@ -49,7 +49,7 @@ include 'php/forms.php';
                     <li><a href="/html/rate-list.html">Pricing</a></li>
                     <li><a href="/html/services.html">Services</a></li>
                     <li ><a href="/html/influencer.html">Influencer Program</a></li>
-                    <li><a href="/php/contact.php?showText=true">Surprise!!!</a></li>
+                    <li><a href="/contact.php?showText=true">Surprise!!!</a></li>
 
                 </ul>
             </div>
