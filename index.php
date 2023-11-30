@@ -32,7 +32,7 @@ include 'php/forms.php';
                 <ul>
 
                     <li>
-                        <a href="//contact.php">Contact ▾</a>
+                        <a href="/contact.php">Contact ▾</a>
                         <ul class="dropdown">
 
                             <li><a href="mailto:contact@xinfluence.in" target="_main " class="contact-dropdown-color">Email :
