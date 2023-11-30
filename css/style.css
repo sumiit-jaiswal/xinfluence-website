@@ -1,0 +1,89 @@
+/* General Styles */
+* {
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+h1, h2 {
+  color: #333;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+p {
+  color: #666;
+  line-height: 1.5;
+}
+
+a {
+  /* color: #337ab7; */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* for blue color X in Xinfluence */
+div:hover .xblue {
+  color: #0074d9;
+}
+
+
+.btn-primary {
+  display: inline-block;
+  background-color: #eb0936;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 1rem 0;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.google-form-link{
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btn-primary:hover, .google-form-link:hover {
+  background-color: #0074d9;
+}
+
+
+
+.container:hover button[type="submit"] {
+  background-color: #0074d9;
+}
+
+@media (max-width: 768px) {
+  .xblue {
+    color: #0074d9;
+  }
+}
+
+.submitmsg {
+  color: #eb0936;
+  z-index: 1000;
+  font-size: 1.5rem;
+}
+
+

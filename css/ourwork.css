@@ -1,0 +1,57 @@
+  /* Animation */
+  @keyframes fade-in {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Our Work Section */
+  #our-work {
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  #our-work h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  #our-work p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  .work-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .work-item {
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fade-in 1s ease-out;
+    transition: transform 0.3s ease;
+  }
+
+  .work-item:hover {
+    transform: translateY(-10px);
+  }
+
+  .work-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+
+  .work-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .work-item p {
+    font-size: 16px;
+    color: #777;
+  }
