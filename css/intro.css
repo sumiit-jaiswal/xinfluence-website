@@ -1,0 +1,19 @@
+#intro {
+  background-color: rgb(200, 228, 228);
+  padding: 60px 0;
+}
+#intro h1{
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+#intro p{
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.btn-primary {
+  font-size: large;
+  font-weight: bold;
+}
+
+

@@ -1,0 +1,205 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  h1, h2 {
+    color: #333;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  p {
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  a {
+    color: #337ab7;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a.xblue {
+    color: #1d5791;
+  }
+  
+  .btn-primary {
+    display: inline-block;
+    background-color: #ff7f50;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff9650;
+  }
+  
+  /* Hover Effects */
+  .container:hover a {
+    color: #ff9650;
+  }
+  
+  .container:hover .btn-primary {
+    background-color: #ff9650;
+  }
+  
+  .container:hover .servicesheading {
+    color: #ff9650;
+  }
+  
+  .container:hover img {
+    transform: rotate(360deg);
+  }
+  
+  .container:hover button[type="submit"] {
+    background-color: #ff9650;
+  }
+/* Section: intro */
+#intro {
+    background-color: #f6f6f6;
+    padding: 60px 0;
+  }
+  
+  .submitmsg {
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .submitmsg:hover {
+    color: #ff9650;
+  }
+  
+  .container:hover .submitmsg {
+    opacity: 1;
+  }
+/* Section: services */
+#services {
+  padding: 60px 0;
+}
+
+.servicescontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.item {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.item:nth-child(odd) {
+  background-color: #fff;
+}
+
+.item:nth-child(even) {
+  background-color: #f6f6f6;
+}
+
+.servicesheading {
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+  transition: color 0.3s ease;
+}
+
+.servicesheading:hover {
+  color: #ff7f50;
+}
+
+.item p {
+  color: #555;
+  line-height: 1.5;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.item:hover img {
+  transform: scale(1.1);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .item {
+    flex-basis: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .item {
+    flex-basis: 100%;
+  }
+}
+
+  
+/* Section: contact */
+#contact {
+    background-color: #f7f7f7;
+    padding: 60px 0;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .query-form {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .query-form:focus {
+    border-color: #ff9650;
+  }
+  
+  button[type="submit"] {
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ff9650;
+  }
+        
